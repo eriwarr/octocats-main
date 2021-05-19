@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.octocat {
+height: 500px;
+width: 500px;
+
+}
+
+.octocat img {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.image-footer {
+  display: inline;
+  height: 50px;
+  width: 50px;
+}
+
+.image-footer img {
+  height: 25%;
+  width: 25%;
+} */
+/*
+div.image-footer {
+  background-color: red;
+  width: 500px;
+  height: 50px;
+
+}
