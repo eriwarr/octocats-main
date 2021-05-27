@@ -44,9 +44,10 @@ ul {
 
 .image-number {
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translate(-50%);
-  left: 0;
+  left: 20px;
+  color: #CBCBCC; z
 }
 
 .image-number::before {
@@ -63,13 +64,36 @@ ul {
 
 .image-caption {
   text-align: right;
+  color: #7C7D81;
+  position: relative;
 }
+
+
+
+.image-caption > a {
+  text-decoration: none;
+  color: black;
+}
+
 
 .authors {
   display: inline-block;
+
 }
 
 .authors > li > a {
   display: inline-block;
   width: 30px;
+}
+
+.authors > li > a > img {
+  display: inline-block;
+  width: 30px;
+  border-radius: 10%;
+  border: solid 1px gray;
+}
+
+.middle {
+  margin-right: 30px;
+  margin-left: 30px;
 }
